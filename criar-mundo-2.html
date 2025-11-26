@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Mundo</title>
+    <link href="https://fonts.cdnfonts.com/css/minecraft-4" rel="stylesheet">
+    <style>
+        @font-face {
+            font-family: Minecraft;
+            src: url('Minecraft.ttf');
+        }
+    </style>
+    <link href="https://fonts.cdnfonts.com/css/mc-ten-lowercase-alt" rel="stylesheet">
+    <style>
+        @font-face {
+            font-family: MC Ten Lowercase Alt;
+            src: url('mc-ten-lowercase-alt.ttf');
+        }
+    </style>
+    <link rel="stylesheet" href="assets/css/criar-mundo-2.css">
+</head>
+
+<body>
+    <header>
+        <p>Criar Novo Mundo</p>
+    </header>
+    <div class="mundo">
+        <p id="codigo">Código para Gerar um Mundo</p>
+        <input type="text">
+        <p id="aleatorio">Deixa em branco para um mundo aleatório</p>
+    </div>
+    <div class="modo1">
+        <div class="bt-modo1">
+            <p class="pgf-modo1">Gerar Estruturas</p>
+            <select name="" id="option1">
+                <option value="ligado">Ligado</option>
+                <option value="desligado">Desligado</option>
+            </select>
+            <p id="pgf-bt1">Aldeias, masmorras etc.</p>
+        </div>
+        <div class="bt-modo2">
+            <p class="pgf-modo1">Tipo de Mundo</p>
+            <select name="" id="option2">
+            <option value="padrao">Padrão</option>
+            <option value="superplano">Superplano</option>
+            <option value="grandes-biomas">Grandes Biomas</option>
+            <option value="ampulheta">Ampulheta</option>
+            <option value="bioma-unico">Bioma Único</option>
+            <option value="personalizado">Personalizado</option>
+            </select>
+        </div>
+    </div>
+    <div class="modo2">
+        <div class="bt-modo3">
+            <p class="pgf-modo2">Permitir Cheats</p>
+            <select name="" id="option3">
+                <option value="ligado">Ligado</option>
+                <option value="desligado">Desligado</option>
+            </select>
+            <p id="pgf-bt2">Comandos como /gamemode, /xp</p>
+        </div>
+        <div class="bt-modo4">
+            <p class="pgf-modo2">Baú bônus</p>
+            <select name="" id="option4">
+                <option value="ligado">Ligado</option>
+                <option value="desligado">Desligado</option>
+            </select>
+        </div>
+    </div>
+    <div class="concluido">
+        <button id="bt-concluido">Concluído</button>
+    </div>
+    <div class="bt-footer">
+        <button id="bt1">Criar Novo Mundo</button>
+        <button id="bt2">Cancelar</button>
+    </div>
+</body>
+
+</html>

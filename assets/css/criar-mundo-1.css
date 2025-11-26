@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://i.pinimg.com/736x/32/91/94/329194203855d02ce008ad6641815b1d.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: MC Ten Lowercase Alt;
+    font-weight: 100px;
+}
+
+button{
+    font-family: MC Ten Lowercase Alt;
+}
+
+header{
+    text-align: center;
+    margin: 4rem 0 0 0;
+    font-size: 30px;
+}
+
+.nome-mundo{
+    text-align: center;
+    margin-top: 8rem;
+}
+#nome{
+    font-size: 20px;
+}
+input{
+    width: 30rem;
+    padding: 0.5rem;
+    background-color: #000;
+    opacity: 0.5;
+    color: #FFFAF0;
+}
+
+.modo-jogo{
+    text-align: center;
+    margin-top: 5rem;
+}
+#bt-modo{
+    font-size: 20px;
+    padding: 0 0 5px 0;
+    width: 25rem;
+}
+#pgf-modo{
+    font-size: 12px;
+}
+
+.bt-opcoes{
+    text-align: center;
+    margin-top: 5rem;
+}
+#bt-opcoes{
+    font-size: 20px;
+    padding: 0 0 5px 0;
+    width: 25rem;
+}
+
+.bt-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+#bt1{
+    font-size: 20px;
+    width: 15rem;
+    margin-right: 2rem;
+    padding: 0 0 5px 0;
+}
+#bt2{
+    font-size: 20px;
+    width: 15rem;
+    margin-left: 2rem;
+    padding: 0 0 5px 0;
+}
+
